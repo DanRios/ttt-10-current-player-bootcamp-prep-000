@@ -9,10 +9,10 @@ return counter
 end
 
 def current_player(board)
-board.each do |turn_count(board)|
-  if turn_count(board) % 2 != 0
-    "O"
-  else
-    "X"
-  end
+if turn_count(board) % 2 != 0
+  "O"
+else
+  "X"
 end
+end
+
