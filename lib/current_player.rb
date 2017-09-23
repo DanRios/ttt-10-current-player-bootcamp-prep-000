@@ -16,4 +16,3 @@ else turn_count(board).even?
   "O"
 end
 end
-
