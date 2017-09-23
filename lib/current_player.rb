@@ -9,9 +9,11 @@ return counter
 end
 
 def current_player(board)
-if (turn_count(board) % 2) != 0
-  puts "O"
-else
-  puts "X"
+turn_count(board) = gets.chomp.to_i
+if turn_count(board).odd?
+  "X"
+else turn_count(board).even?
+  "O"
 end
 end
+
