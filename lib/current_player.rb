@@ -8,6 +8,15 @@ end
 return counter
 end
 
+def numbertest()
+  number = gets.chomp.to._i
+  if number.even?
+    puts "even"
+  else number.odd?
+    putss "odd"
+  end
+end
+
 def current_player(board)
 counter = [0]
 counter += 1
