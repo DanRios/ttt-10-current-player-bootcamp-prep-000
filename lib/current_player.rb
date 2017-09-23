@@ -10,6 +10,7 @@ end
 
 def current_player(board)
 counter = [0]
+counter += 1
 f[counter] = -> (counter){puts counter.odd?? 'odd' : 'even'}
 board.each do |move|
   counter += 1
