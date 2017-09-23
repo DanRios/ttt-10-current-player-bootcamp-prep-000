@@ -9,9 +9,10 @@ return counter
 end
 
 def current_player(board)
-  if move == "X"
-    puts "Current player is X"
-  else move == "O"
-    puts "Current player is O"
+counter = 0
+move = gets.strip
+board.each do |move|
+  if move == "X" || move == "O"
+    puts "#{move}"
 end
 end
