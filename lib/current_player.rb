@@ -9,10 +9,15 @@ return counter
 end
 
 def current_player(board)
-move = gets.strip
+counter = 0
+f[counter] = -> (counter){puts counter.odd?? 'odd' : 'even'}
 board.each do |move|
-  if move == "X" || move == "O"
-    puts "#{move}"
+  counter += 1
+  if f[counter] == 'odd'
+    puts "X"
+  else f[counter] == 'even'
+    puts "O"
+  end
 end
-end
-end
+  
+
