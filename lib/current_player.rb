@@ -19,3 +19,5 @@ board.each do |move|
     puts "O"
   end
 end
+end
+
