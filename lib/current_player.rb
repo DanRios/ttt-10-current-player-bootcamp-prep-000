@@ -18,14 +18,9 @@ def numbertest()
 end
 
 def current_player(board)
-counter = [0]
-counter += 1
-f[counter] = -> (counter){puts counter.odd?? 'odd' : 'even'}
-board.each do |move|
-  if f[counter] == 'odd'
-    puts "X"
-  else f[counter] == 'even'
-    puts "O"
-  end
+if numbertest() == "odd"
+  puts "X"
+else numbertest() == "even"
+  puts "O"
 end
 end
