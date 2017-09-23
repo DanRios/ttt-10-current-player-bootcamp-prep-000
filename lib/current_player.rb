@@ -16,5 +16,3 @@ board.each do |turn_count(board)|
     "X"
   end
 end
-  
-  
