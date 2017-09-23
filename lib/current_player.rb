@@ -14,3 +14,4 @@ def current_player(board)
   else move == "O"
     puts "Current player is O"
 end
+end
