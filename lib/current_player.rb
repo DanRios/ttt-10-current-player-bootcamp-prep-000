@@ -13,7 +13,6 @@ counter = [0]
 counter += 1
 f[counter] = -> (counter){puts counter.odd?? 'odd' : 'even'}
 board.each do |move|
-  counter += 1
   if f[counter] == 'odd'
     puts "X"
   else f[counter] == 'even'
