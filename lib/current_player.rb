@@ -20,4 +20,3 @@ board.each do |move|
   end
 end
 end
-
