@@ -15,3 +15,4 @@ board.each do |move|
     puts "#{move}"
 end
 end
+end
