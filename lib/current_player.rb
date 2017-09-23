@@ -9,7 +9,6 @@ return counter
 end
 
 def current_player(board)
-counter = 0
 move = gets.strip
 board.each do |move|
   if move == "X" || move == "O"
