@@ -19,6 +19,3 @@ board.each do |move|
     puts "X"
   end
 end
-
-    
-
