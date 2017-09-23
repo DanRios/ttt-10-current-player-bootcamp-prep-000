@@ -8,19 +8,17 @@ end
 return counter
 end
 
-def numbertest()
-  number = gets.chomp.to._i
-  if number.even?
-    puts "even"
-  else number.odd?
-    putss "odd"
+def current_player(board)
+counter = 0
+board.each do |move|
+  counter = gets.chomp.to_i
+  counter += 1
+  if counter.even?
+    puts "O"
+  else counter.odd?
+    puts "X"
   end
 end
 
-def current_player(board)
-if numbertest() == "odd"
-  puts "X"
-else numbertest() == "even"
-  puts "O"
-end
-end
+    
+
